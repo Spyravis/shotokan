@@ -32,11 +32,13 @@ body {
 .body-right {
 	float: right;
 	width: 50%;
+	font-family: fantasy;
 }
 
 .body-left {
 	float: left;
 	width: 50%;
+	font-family: fantasy;
 }
 
 .input {
