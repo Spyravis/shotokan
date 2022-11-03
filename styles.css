@@ -24,9 +24,32 @@ body {
 
 .postcard-header h1 {
 }
+
 .postcard-body {
 	display: flex;
+	border-bottom: 1px;
 }
-.body-left,
 .body-right {
+	float: right;
+	width: 50%;
+}
+
+.body-left {
+	float: left;
+	width: 50%;
+}
+
+.input {
+	font-size: 80px;
+	padding: 12px;
+	margin: auto;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: rgb(61, 156, 224);
+	padding: 12px;
 }
